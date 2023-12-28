@@ -1,0 +1,15 @@
+#icons-list{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 0;
+}
+
+.icons{
+  width: 2vw;
+  list-style: none;
+}
+
+.icons > img{
+  width: 100%;
+}

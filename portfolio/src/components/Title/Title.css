@@ -1,0 +1,18 @@
+
+#name{
+  font-family: "Barlow Semi Condensed";
+  font-size: 100px;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(180deg, hsla(192, 56%, 41%, 1) 0%, hsla(302, 47%, 55%, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  /* color: #232d2d; */
+  color: #242424;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  width: fit-content;
+  margin: 0;
+  line-height: 1;
+}
