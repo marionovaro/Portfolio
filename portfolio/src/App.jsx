@@ -21,6 +21,7 @@ const App = () => {
     </section>
     <nav id="main-nav">
       <h3 id="listo">¿Listo para dar vida a tu visión?</h3>
+      <button>Conecta</button>
     </nav>
     </>
   )
