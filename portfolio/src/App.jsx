@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Title } from './components/Title/Title'
-import { Description } from './components/Description/Description'
-import { RRSS } from './components/RRSS/RRSS'
+import { Title, SubTitle, Description, RRSS } from './components'
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -12,6 +10,7 @@ const App = () => {
     <section id="landing-page">
       <div id="lettering-side">
         <Title/>
+        <SubTitle/>
         <Description/>
         <RRSS/>
       </div>
@@ -21,7 +20,7 @@ const App = () => {
     </section>
     <nav id="main-nav">
       <h3 id="listo">¿Listo para dar vida a tu visión?</h3>
-      <button>Conecta</button>
+      {/* <button>Conecta</button> */}
     </nav>
     </>
   )

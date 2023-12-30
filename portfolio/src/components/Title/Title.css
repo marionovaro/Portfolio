@@ -1,18 +1,25 @@
 
 #name{
-  font-family: "Barlow Semi Condensed";
-  font-size: 100px;
+  font-family: "Poppins";
+  /* antes tenia la barlow semi condensed con 100px y 4px de border */
+  font-size: 80px;
   text-transform: uppercase;
   background: -webkit-linear-gradient(180deg, hsla(192, 56%, 41%, 1) 0%, hsla(302, 47%, 55%, 1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-stroke: 4px transparent;
-  /* color: #232d2d; */
-  color: #242424;
+  -webkit-text-stroke: 6px transparent;
+  color: #151515;
+  /* color: #242424; */
   display: flex;
   flex-wrap: wrap;
   text-align: left;
   width: fit-content;
   margin: 0;
   line-height: 1;
+  padding-left: 8%;
+}
+
+#name > span{
+  color: transparent;
+  -webkit-text-stroke: 0px transparent;
 }
