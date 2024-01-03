@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Title, SubTitle, Description, RRSS } from './components'
+import { Title, SubTitle, Description, RRSS, Tech } from './components'
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -18,10 +18,11 @@ const App = () => {
         <img src="https://alfin.dev/images/illustrations/developer-illustration.png" alt="mario coding" />
       </div>
     </section>
-    <nav id="main-nav">
+    <section id="main-nav">
       <h3 id="listo">¿Listo para dar vida a tu visión?</h3>
+      <Tech/>
       {/* <button>Conecta</button> */}
-    </nav>
+    </section>
     </>
   )
 }

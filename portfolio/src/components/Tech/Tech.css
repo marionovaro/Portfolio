@@ -1,0 +1,14 @@
+#tech-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 5% 3%;
+}
+
+#tech-nav > i{
+  font-size: 8em;
+}
+
+.
