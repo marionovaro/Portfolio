@@ -1,0 +1,17 @@
+#projects-section{
+  margin: 15vh 0;
+
+}
+
+#projects-section-title{
+  padding: 0 2vw;
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 5em;
+  letter-spacing: 1px;
+  background: whitesmoke;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 2.5px transparent;
+  color: #151515;
+}

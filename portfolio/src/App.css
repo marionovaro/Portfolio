@@ -7,7 +7,6 @@
 
 #lettering-side, #visuals-side{
   width: 50%;
-  padding-inline: 2vw;
 }
 
 #lettering-side{
@@ -36,4 +35,8 @@
   font-weight: 50;
   color: white;
   text-align: center;
+}
+
+#projects{
+  
 }

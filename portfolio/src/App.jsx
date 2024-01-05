@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Title, SubTitle, Description, RRSS, Tech } from './components'
+import { Title, SubTitle, Description, RRSS, Tech, Work, About } from './components'
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -23,8 +23,8 @@ const App = () => {
       <Tech/>
       {/* <button>Conecta</button> */}
     </section>
-    <section>
-      
+    <section id="projects">
+      <Work/>
     </section>
     </>
   )
