@@ -21,7 +21,6 @@ const App = () => {
     <section id="main-nav">
       <h3 id="listo">¿Listo para dar vida a tu visión?</h3>
       <Tech/>
-      {/* <button>Conecta</button> */}
     </section>
     <section id="projects">
       <Work/>

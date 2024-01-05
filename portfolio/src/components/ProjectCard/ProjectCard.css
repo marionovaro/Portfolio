@@ -1,0 +1,31 @@
+.project-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-title{
+  color: white;
+  font-family: "Poppins";
+  text-transform: capitalize;
+}
+
+.languages-list{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.languages-list > li > i{
+  font-size: 40px;
+}
