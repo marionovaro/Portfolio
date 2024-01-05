@@ -9,7 +9,6 @@ export const ProjectCard = ({ title, languages}) => {
         <h3 className="project-title">{title}</h3>
         <ul className="languages-list">
         {languages?.map((language) => {
-          console.log(language)
           return (
               <li key={language}>{printLanguageIcon(language)}</li>
           )
