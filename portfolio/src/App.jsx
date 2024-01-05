@@ -23,6 +23,9 @@ const App = () => {
       <Tech/>
       {/* <button>Conecta</button> */}
     </section>
+    <section>
+      
+    </section>
     </>
   )
 }

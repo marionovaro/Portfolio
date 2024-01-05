@@ -4,13 +4,145 @@
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
-  padding: 5% 3%;
+  /* padding: 5% 3%; */
+}
+
+.language{
+  position: relative;
+}
+
+/*! Texto (desaparecido) */
+
+.language .name{
+  position: absolute;
+  background: -webkit-linear-gradient(180deg, hsla(192, 56%, 41%, 1) 0%, hsla(302, 47%, 55%, 1) 100%);
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 600;
+  padding: 6% 17%;
+  border-radius: 15px;
+  bottom: -60px; left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, -50px);
+  letter-spacing: 1px;
+  font-size: 16px;
+  opacity: 0;
+  transition: all 0.3s;
+  z-index: 1;
+}
+
+/*!Cuadrado que parece mensaje*/
+
+.language .name::before{
+  content: "";
+  position: absolute;
+  top: 0; left: 50%;
+  width: 15px; height: 15px;
+  background-color: #716CA6;
+  transform: translate(-50%, -50%) rotate(45deg);
+  z-index: 0;
+}
+
+/*! Aparece texto*/
+
+.language i:hover + .name{
+  opacity: 1;
+  transform: translateX(-50%);
+  box-shadow: 0 10px 20px rgba(86, 86, 198, 0.3);;
+}
+
+#tech-nav > div > i{
+  font-size: 8em;
 }
 
 #tech-nav > i{
   font-size: 8em;
 }
 
-.devicon-javascript-plain{
-  border: 1px solid black;
+#tech-nav > i:hover{
+  font-size: 9em;
+}
+
+/*! Hace que solo afecte a lo que no haces hover */
+
+#tech-nav:hover i:not(:hover) {
+  color: #666;
+  transition: .8s;
+}
+
+.language > i{
+  transition: .5s;
+}
+
+
+.devicon-javascript-plain:hover {
+  color: #F0DB4F;
+  box-shadow: 0 0 15px #F0DB4F;
+  text-shadow: 0 0 5px #F0DB4F;
+  transition: .8s ease-in-out;
+}
+
+#tach-nav > .language > i{
+  transition: .5s ease-in-out;
+}
+
+.devicon-html5-plain:hover {
+  color: #E54D26;
+  text-shadow: 0 0 10px #E54D26;
+  transition: .8s ease-in-out;
+}
+
+/* .devicon-css3-plain{
+  transition: .5s ease-in-out;
+  color: #666;
+} */
+
+.devicon-css3-plain:hover {
+  color: #3D8FC6;
+  text-shadow: 0 0 10px #3D8FC6;
+  transition: .8s ease-in-out;
+}
+
+/* .devicon-react-original{
+  transition: .5s ease-in-out;
+  color: #666;
+} */
+
+.devicon-react-original:hover {
+  color: #61DAFB;
+  text-shadow: 0 0 10px #61DAFB;
+  transition: .8s ease-in-out;
+}
+
+/* .devicon-nodejs-plain{
+  transition: .5s ease-in-out;
+  color: #666;
+} */
+
+.devicon-nodejs-plain:hover {
+  color: #83CD29;
+  text-shadow: 0 0 10px #83CD29;
+  transition: .8s ease-in-out;
+}
+
+/* .devicon-mongodb-plain-wordmark{
+  transition: .5s ease-in-out;
+  color: #666;
+} */
+
+.devicon-mongodb-plain-wordmark:hover {
+  color: #4FAA41;
+  text-shadow: 0 0 10px #4FAA41;
+  transition: .8s ease-in-out;
+}
+
+/* .devicon-typescript-plain{
+  transition: .5s ease-in-out;
+  color: #666;
+} */
+
+.devicon-typescript-plain:hover {
+  color: #007ACC;
+  text-shadow: 0 0 10px #007ACC;
+  transition: .8s ease-in-out;
 }
