@@ -4,7 +4,6 @@
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
-  /* padding: 5% 3%; */
 }
 
 .language{
@@ -59,7 +58,7 @@
   font-size: 8em;
 }
 
-#tech-nav > i:hover{
+#tech-nav > .language i:hover{
   font-size: 9em;
 }
 

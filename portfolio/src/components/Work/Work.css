@@ -9,14 +9,14 @@
 }
 
 #projects-section-title{
-  padding: 0 2vw;
+  width: 80vw;
   font-family: 'Righteous';
-  /* font-weight: 800; */
-  font-size: 5em;
+  font-size: 4em;
   letter-spacing: 1px;
   background: whitesmoke;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-stroke: 2.5px transparent;
   color: #151515;
+  text-align: left;
 }
