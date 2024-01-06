@@ -1,12 +1,15 @@
 import { printLanguageIcon } from "../../utils/printLanguageIcon"
+import { printNumberList } from "../../utils/printNumberList"
 import "./ProjectCard.css"
 
-export const ProjectCard = ({ title, description, languages, isPublished, image}) => {
+export const ProjectCard = ({ title, description, languages, isPublished, index, image}) => {
+  console.log(index%2)
   return (
     <div className="project-card">
-      <div className="image-container-project-card">
-        <img src={image} alt={`portada ${title}`} /> 
-      </div>
+      {index%2 !== 0 && <div className="image-container-project-card">
+        {printNumberList(index)}
+        <img className="main-project-image" src={image} alt={`portada ${title}`} /> 
+      </div>}
       <div className="project-info">
         <h2 className="project-title">{title}</h2>
         <h4 className="project-description">{description}</h4>
@@ -19,7 +22,10 @@ export const ProjectCard = ({ title, description, languages, isPublished, image}
         </ul>
         {isPublished && <p className="visit-site"><i>Visit the Website →</i></p>}
       </div>
-      
+      {index%2 == 0 && <div className="image-container-project-card">
+        {printNumberList(index)}
+        <img className="main-project-image" src={image} alt={`portada ${title}`} /> 
+      </div>}
     </div>
   )
 }

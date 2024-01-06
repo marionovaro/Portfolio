@@ -20,5 +20,8 @@ export const printLanguageIcon = (language) => {
 
     case "ts":
       return <i class="devicon-typescript-plain colored"></i>
+    
+    case "angular":
+      return <i class="devicon-angularjs-plain colored"></i>
   }
 }

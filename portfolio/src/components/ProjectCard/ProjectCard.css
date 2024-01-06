@@ -8,9 +8,26 @@
 
 .image-container-project-card{
   width: 70%;
+  position: relative;
 }
 
-.image-container-project-card > img{
+.number-list{
+  height: 18vh;
+}
+
+.even{
+  position: absolute;
+  top: -20%;
+  right: 5%;
+}
+
+.odd{
+  position: absolute;
+  top: -20%;
+  left: 5%;
+}
+
+.main-project-image{
   object-fit: contain;
   width: 100%;
   border-radius: 15px;
@@ -33,6 +50,7 @@
   font-size: 45px;
   line-height: 0.9;
   width: 100%;
+  text-align: center;
 }
 
 .project-description{

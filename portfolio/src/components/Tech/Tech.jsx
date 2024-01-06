@@ -32,6 +32,10 @@ export const Tech = () => {
           <i class="devicon-typescript-plain colored"></i>
           <span class="name">TypeScript</span>
         </div>
+        <div class="language">
+          <i class="devicon-angularjs-plain colored"></i>
+          <span class="name">Angular</span>
+        </div>
       </nav>   
     </>
   )

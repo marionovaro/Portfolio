@@ -51,15 +51,11 @@
 }
 
 #tech-nav > div > i{
-  font-size: 8em;
-}
-
-#tech-nav > i{
-  font-size: 8em;
+  font-size: 6em;
 }
 
 #tech-nav > .language i:hover{
-  font-size: 9em;
+  font-size: 7em;
 }
 
 /*! Hace que solo afecte a lo que no haces hover */
