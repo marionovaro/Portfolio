@@ -1,12 +1,13 @@
 import { printLanguageIcon } from "../../utils/printLanguageIcon"
 import "./ProjectCard.css"
 
-export const ProjectCard = ({ title, languages}) => {
+export const ProjectCard = ({ title, description, languages, image}) => {
   return (
     <div className="project-card">
-      <img src="https://t3.ftcdn.net/jpg/05/69/49/70/360_F_569497047_6wIPFpvnfmwRTpgiRG2dVdlyjOXe2lcY.jpg" alt="imagen proyecto 1" />
+      <img src={image} alt={`portada ${title}`} />
       <div className="project-info">
-        <h3 className="project-title">{title}</h3>
+        <h2 className="project-title">{title}</h2>
+        <h4>{description}</h4>
         <ul className="languages-list">
         {languages?.map((language) => {
           return (

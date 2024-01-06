@@ -1,3 +1,4 @@
+import { projects } from "../../data/projects"
 import { ProjectCard } from "../ProjectCard/ProjectCard"
 import "./Work.css"
 export const Work = () => {
@@ -5,7 +6,9 @@ export const Work = () => {
     <>
       <div id="projects-section">
         <h1 id="projects-section-title">Projects</h1>
-        <ProjectCard title = "proyecto 1" languages = {["js", "html", "react", "css"]}/>
+        {projects.map((project) => (
+          <ProjectCard title = {project.title} description={project.description} languages = {project.languages} image={project.image}/>
+        ))}
 
       </div>
     </>
