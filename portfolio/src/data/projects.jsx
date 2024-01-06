@@ -1,14 +1,16 @@
 export const projects = [
   {
-    title: "Proyecto 1",
-    description: "Proyecto como freelance para empresa canaria",
+    title: "HousePals",
+    description: "Platafroma que conecta personas para compartir piso y encontrar nuevos inquilinos con intereses afinos",
     languages: ["js", "html", "ts"],
-    image: "https://t3.ftcdn.net/jpg/05/69/49/70/360_F_569497047_6wIPFpvnfmwRTpgiRG2dVdlyjOXe2lcY.jpg"
+    image: "https://t3.ftcdn.net/jpg/05/69/49/70/360_F_569497047_6wIPFpvnfmwRTpgiRG2dVdlyjOXe2lcY.jpg",
+    isPublished: true,
   },
   {
-    title: "Proyecto 2",
-    description: "App web para espacio coworking en Bali",
+    title: "Adventure Canary",
+    description: "Proyecto como freelance para empresa canaria de organización de aventuras acuaticas, terrestres y de aire.",
     languages: ["ts", "html", "css"],
-    image: "https://images7.alphacoders.com/550/550240.jpg"
+    image: "https://images7.alphacoders.com/550/550240.jpg",
+    isPublished: true,
   }
 ]
