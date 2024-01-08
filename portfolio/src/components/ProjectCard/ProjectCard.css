@@ -12,18 +12,18 @@
 }
 
 .number-list{
-  height: 18vh;
+  height: 12vw;
 }
 
 .even{
   position: absolute;
-  top: -18%;
+  top: -25%;
   right: 5%;
 }
 
 .odd{
   position: absolute;
-  top: -18%;
+  top: -25%;
   left: 5%;
 }
 
