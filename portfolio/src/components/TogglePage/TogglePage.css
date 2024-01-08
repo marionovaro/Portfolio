@@ -1,0 +1,18 @@
+#toggle-component{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  font-family: "Rubik";
+  font-weight: 500;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 5px 5px;
+}
+
+#work-side-toggle, #about-side-toggle{
+  border: 0.5px solid white;
+  border-radius: 25px;
+  padding: 7.5px 20px;
+}

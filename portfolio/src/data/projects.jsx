@@ -1,11 +1,19 @@
 export const projects = [
   {
     title: "HousePals",
-    description: "Platafroma que conecta personas para compartir piso y encontrar nuevos inquilinos con intereses afinos",
-    languages: ["js", "html", "ts"],
-    // image: "https://t3.ftcdn.net/jpg/05/69/49/70/360_F_569497047_6wIPFpvnfmwRTpgiRG2dVdlyjOXe2lcY.jpg",
+    description: "Platafroma que conecta personas para compartir piso y encontrar nuevos inquilinos con intereses afines",
+    languages: ["js", "html", "css", "react", "node"],
     image: "https://res.cloudinary.com/dx2arqne6/image/upload/v1704653696/Portada_HousePals_rcqmkn.png",
     isPublished: true,
+    show: true
+  },
+  {
+    title: "Sports DataBase",
+    description: "Proyecto inicialmente desarrollado como base de datos que luego se llevó al frontal para mostrar, encontrar y filtrar deportistas y clubes.",
+    languages: ["html", "css", "react", "node", "mongodb"],
+    image: "https://res.cloudinary.com/dx2arqne6/image/upload/v1704656118/Portada_FIFA_epg3bd.png",
+    isPublished: true,
+    show: true,
   },
   {
     title: "Adventure Canary",
@@ -13,5 +21,6 @@ export const projects = [
     languages: ["ts", "html", "css"],
     image: "https://res.cloudinary.com/dx2arqne6/image/upload/v1704656118/Portada_FIFA_epg3bd.png",
     isPublished: true,
+    show: false,
   }
 ]

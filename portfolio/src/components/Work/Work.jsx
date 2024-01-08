@@ -10,9 +10,7 @@ export const Work = () => {
         <div id="projects-list">
           {projects.map((project) => {
             acc++
-            return (
-              <ProjectCard title={project.title} description={project.description} languages={project.languages} isPublished={project.isPublished} index={acc-1} image={project.image}/>
-            )
+            return project.show && <ProjectCard title={project.title} description={project.description} languages={project.languages} isPublished={project.isPublished} index={acc-1} image={project.image}/>
           })}
         </div>
       </div>

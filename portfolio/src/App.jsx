@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Title, SubTitle, Description, RRSS, Tech, Work, About } from './components'
+import { Title, SubTitle, Description, RRSS, Tech, Work, About, TogglePage } from './components'
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -20,6 +20,7 @@ const App = () => {
     </section>
     <section id="main-nav">
       <h3 id="listo">¿Listo para dar vida a tu visión?</h3>
+      <TogglePage/>
       <Tech/>
     </section>
     <section id="projects">
