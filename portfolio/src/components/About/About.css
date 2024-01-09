@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 20vh 50vh 10vh 50vh;
+  gap: 1rem;
   /* min-height: 80vh; */
   min-width: 100%;
   color: white;
@@ -16,7 +17,14 @@
 
 #grid-1{
   grid-area: uno;
-  object-fit: contain;
+  /* object-fit: contain; */
+
+  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+  }
 }
 #grid-2{
   grid-area: dos;
@@ -41,4 +49,12 @@
 }
 #grid-9{
   grid-area: nueve;
+  /* object-fit: contain; */
+
+  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+  }
 }
