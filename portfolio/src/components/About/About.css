@@ -1,18 +1,20 @@
 #about-section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 20vh 50vh 10vh 50vh;
+  grid-template-rows: 25vh 25vh 25vh 10vh 20vh;
   gap: 1rem;
-  /* min-height: 80vh; */
+  justify-content: center;
+  align-items: center;
   min-width: 100%;
   color: white;
   font-family: "Poppins";
   font-size: 25px;
   grid-template-areas: 
   "uno ocho nueve"
-  "uno dos tres"
-  "cuatro cinco seis"
-  ". . .";
+  "uno dos dos"
+  "uno . tres"
+  "cuatro cinco tres"
+  ". . tres";
 }
 
 #grid-1{
@@ -28,9 +30,39 @@
 }
 #grid-2{
   grid-area: dos;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 300;
+  place-self: center;
+  text-align: justify;
+  width: 80%;
+
+  .sorprendentes{
+    color: hsla(302, 47%, 55%, 1);
+    font-family: "Alkatra";
+    font-weight: 1000;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+}
+#programar-word{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 23px;
+  color: #11A0CF;
+}
+#programar-word::before{
+  content: " _ ";
+  color: #151515;
+}
 }
 #grid-3{
   grid-area: tres;
+
+  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    object-fit: cover;;
+  }
 }
 #grid-4{
   grid-area: cuatro;
@@ -46,6 +78,16 @@
 }
 #grid-8{
   grid-area: ocho;
+  font-family: "Kalam";
+  font-weight: 300;
+  place-self: center;
+  text-align: left;
+  width: fit-content;
+
+  span{
+    font-size: 1.5em;
+    font-weight: 700;
+  }
 }
 #grid-9{
   grid-area: nueve;
