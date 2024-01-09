@@ -1,7 +1,44 @@
 #about-section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  min-height: 50vh;
+  grid-template-rows: 20vh 50vh 10vh 50vh;
+  /* min-height: 80vh; */
   min-width: 100%;
   color: white;
+  font-family: "Poppins";
+  font-size: 25px;
+  grid-template-areas: 
+  "uno ocho nueve"
+  "uno dos tres"
+  "cuatro cinco seis"
+  ". . .";
+}
+
+#grid-1{
+  grid-area: uno;
+  object-fit: contain;
+}
+#grid-2{
+  grid-area: dos;
+}
+#grid-3{
+  grid-area: tres;
+}
+#grid-4{
+  grid-area: cuatro;
+}
+#grid-5{
+  grid-area: cinco;
+}
+#grid-6{
+  grid-area: seis;
+}
+#grid-7{
+  grid-area: siete;
+}
+#grid-8{
+  grid-area: ocho;
+}
+#grid-9{
+  grid-area: nueve;
 }

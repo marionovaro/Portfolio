@@ -4,8 +4,9 @@ export const projects = [
     description: "Platafroma que conecta personas para compartir piso y encontrar nuevos inquilinos con intereses afines",
     languages: ["js", "html", "css", "react", "node"],
     image: "https://res.cloudinary.com/dx2arqne6/image/upload/v1704653696/Portada_HousePals_rcqmkn.png",
-    isPublished: true,
-    show: true
+    isPublished: false,
+    show: true,
+    // link: "https://fifa-sports.vercel.app/"
   },
   {
     title: "Sports DataBase",
@@ -14,6 +15,7 @@ export const projects = [
     image: "https://res.cloudinary.com/dx2arqne6/image/upload/v1704656118/Portada_FIFA_epg3bd.png",
     isPublished: true,
     show: true,
+    link: "https://fifa-sports.vercel.app/"
   },
   {
     title: "Adventure Canary",
@@ -22,5 +24,6 @@ export const projects = [
     image: "https://res.cloudinary.com/dx2arqne6/image/upload/v1704656118/Portada_FIFA_epg3bd.png",
     isPublished: true,
     show: false,
+    // link: "https://fifa-sports.vercel.app/"
   }
 ]
