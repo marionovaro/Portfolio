@@ -12,9 +12,9 @@
   grid-template-areas: 
   "uno ocho nueve"
   "uno dos dos"
-  "uno . tres"
-  "cuatro cinco tres"
-  ". . tres";
+  "uno cuatro tres"
+  "siete cuatro tres"
+  "seis seis tres";
 }
 
 #grid-1{
@@ -56,25 +56,41 @@
 }
 #grid-3{
   grid-area: tres;
+  /* object-fit: contain; */
 
   img{
     height: 100%;
     width: 100%;
     border-radius: 7px;
-    object-fit: cover;;
+    object-fit: cover;
   }
 }
 #grid-4{
   grid-area: cuatro;
+  border: 3px solid rebeccapurple;
+  width: 100%;
+  height: 100%;
+
+    li{
+      list-style: none;
+      text-align: center;
+    }
 }
 #grid-5{
   grid-area: cinco;
 }
 #grid-6{
   grid-area: seis;
+  border: 3px solid burlywood;
+  width: 100%;
+  height: 100%;
 }
 #grid-7{
   grid-area: siete;
+  border: 3px solid aqua;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 #grid-8{
   grid-area: ocho;
