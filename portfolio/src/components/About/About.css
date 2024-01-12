@@ -1,7 +1,7 @@
 #about-section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 25vh 25vh 25vh 10vh 20vh;
+  grid-template-rows: 17vh 15vh 15vh 25vh 10vh 20vh;
   gap: 1rem;
   justify-content: center;
   align-items: center;
@@ -12,6 +12,7 @@
   grid-template-areas: 
   "uno ocho nueve"
   "uno dos dos"
+  "uno diez diez"
   "uno cuatro tres"
   "siete cuatro tres"
   "cinco seis tres";
@@ -19,8 +20,8 @@
 
 #grid-1{
   grid-area: uno;
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
 
   img{
     height: 100%;
@@ -35,39 +36,79 @@
   font-size: 20px;
   font-weight: 300;
   place-self: center;
-  text-align: justify;
-  width: 80%;
+  text-align: left;
+  width: 90%;
 
-  .sorprendentes{
+  .span-about{
     color: hsla(302, 47%, 55%, 1);
     font-family: "Alkatra";
     font-weight: 1000;
     font-size: 23px;
     letter-spacing: 0.5px;
-}
-#programar-word{
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 23px;
-  color: #11A0CF;
-  letter-spacing: 2px;
-}
-#programar-word::before{
-  content: " _ ";
-  color: #151515;
-}
+  }
+  #programar-word{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 23px;
+    color: #11A0CF;
+    letter-spacing: 2px;
+  }
+  #programar-word::before{
+    content: " _ ";
+    color: #151515;
+  }
 }
 #grid-3{
-  grid-area: tres;
-  width: 100%;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 300;
+  place-self: center;
+  text-align: left;
+  width: 90%;
   height: 100%;
 
-  img, h3{
-    height: 100%;
+  .paragraph-title{
+    font-weight: 700;
+    position: relative;
+  }
+  img{
+    position: absolute;
+    bottom: -30%;
     width: 100%;
-    border-radius: 7px;
-    object-fit: cover;
+  }
+
+  br{
+    margin: 20px 0;
+    display: block;
+    content: "";
+  }
+
+  .paragraph-separation{
+    border: 1px solid #292929;
+  }
+
+  .second-paragraph{
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .link-to{
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: wavy;
+    color: #BB48B9;
     text-align: center;
-    border: 3px solid burlywood;
+    transition: .5s ease;
+
+    :hover{
+      text-decoration-line: underline overline;
+      font-size: 23px;
+      transition: .5s ease;
+    }
+  }
+  .last-separator{
+    margin: 20px 0 0 0;
   }
 }
 #grid-4{
@@ -92,24 +133,35 @@
     .aboutlist{
       position: absolute;
       left: 18%;
+      width: 7%;
     }
 }
 #grid-5{
   grid-area: cinco;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 300;
+  place-self: center;
+  text-align: left;
   width: 100%;
-  height: 100%;
+  margin-top: -10%;
 
-  img, h3{
-    /* height: 115%; */
-    /* margin-top: -7.5%; */
-    height: 100%;
-    width: 100%;
-    border-radius: 7px;
-    object-fit: cover;
-    object-position: top;
-    border: 3px solid mediumslateblue;
-    text-align: center;
+  .paragraph-title{
+    font-weight: 700;
+    position: relative;
   }
+  img{
+    position: absolute;
+    bottom: -30%;
+    width: 100%;
+  }
+
+  br{
+    margin: 20px 0;
+    display: block;
+    content: "";
+  }
+
 }
 #grid-6{
   grid-area: seis;
@@ -125,7 +177,6 @@
 }
 #grid-7{
   grid-area: siete;
-  /* border: 3px solid aqua; */
   width: 75%;
   height: fit-content;
   justify-self: center;
@@ -134,8 +185,10 @@
   font-family: "Poppins";
   font-weight: 200;
 
-  span{
+  #indonesia{
     font-weight: 600;
+    font-family: "Nothing You Could Do";
+    font-size: larger;
   }
 
 }
@@ -154,11 +207,11 @@
   }
   img{
     position: absolute;
-    width: 13vw;
-    transform: rotate(90deg);
-    left: -85%;
-    top: 50%;
-    bottom: 50%;
+    width: 6vw;
+    transform: rotate(60deg);
+    left: -35%;
+    top: 60%;
+    bottom: 40%;
   }
 }
 #grid-9{
@@ -172,4 +225,35 @@
     border-radius: 7px;
     object-fit: cover;
   }
+}
+
+#grid-10{
+  grid-area: diez;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 300;
+  place-self: center;
+  text-align: right;
+  width: 90%;
+  margin-top: -5%;
+
+  .paragraph-title{
+    font-weight: 700;
+    position: relative;
+  }
+  img{
+    position: absolute;
+    bottom: -30%;
+    width: 100%;
+  }
+
+  br{
+    margin: 20px 0;
+    display: block;
+    content: "";
+  }
+}
+
+#grid-11{
+  grid-area: once;
 }
