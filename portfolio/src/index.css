@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Barlow+Semi+Condensed:wght@700;900&family=Nothing+You+Could+Do&family=Oooh+Baby&family=Poppins:wght@100;200;300;400;500;600;700;800;900&&family=Righteous&&family=Rubik:wght@500;600;700&&family=Kalam:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,700&display=swap');
 
+/* html{
+  min-width: 100vw
+} */
 
-body{
+html, body{
   background-color: #151515;
   min-height: 100vh;
+  min-width: 100vw;
+}
+
+body{
   padding: 0 2vw;
 }
 

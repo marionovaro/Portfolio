@@ -1,6 +1,6 @@
 #about{
   font-family: "Poppins";
-  font-size: 15px;
+  font-size: 1.3vw;
   font-weight: 400;
   text-align: center;
   margin: 8px 0 0 0;
@@ -10,13 +10,13 @@
   #nombretexto{
       /* color: red; */
       font-family: "Oooh Baby", cursive;
-      font-size: 20px;
+      font-size: 1.75vw;
   }
   .sorprendentes{
       color: hsla(302, 47%, 55%, 1);
       font-family: "Alkatra";
       font-weight: 1000;
-      font-size: 17px;
+      font-size: 1.6vw;
       letter-spacing: 0.5px;
   }
 }

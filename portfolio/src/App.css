@@ -21,6 +21,10 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+
+  @media screen and (max-width: 850px) {
+    gap: 1rem;
+  }
 }
 
 #visuals-side > img{
