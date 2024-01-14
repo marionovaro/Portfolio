@@ -7,9 +7,13 @@
   border-radius: 25px;
   padding: 5px 5px;
   background-color: #2D2D2D;
+  height: 4vw;
+  min-height: 3vh;
+  max-height: 5.3vh;
 }
 
 #work-side-toggle, #about-side-toggle{
+  height: 100%;
   border: none;
   border-radius: 25px;
   padding: 10px 20px;
@@ -17,7 +21,10 @@
   color: white;
   font-family: "Rubik";
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #work-side-toggle:active, #about-side-toggle:active{

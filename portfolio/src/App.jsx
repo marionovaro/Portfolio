@@ -5,6 +5,8 @@ import { Title, SubTitle, Description, RRSS, Tech, Work, About, TogglePage } fro
 const App = () => {
   const [toggle, setToggle] = useState("work")
 
+  console.log(window.VisualViewport.scale)
+
   return (
     <>
       <section id="landing-page">
