@@ -1,0 +1,86 @@
+.project-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 80vw;
+}
+
+.image-container-project-card{
+  width: 100%;
+  position: relative;
+}
+
+.number-list{
+  height: 12vw;
+}
+
+.even{
+  position: absolute;
+  top: -25%;
+  right: 5%;
+}
+
+.odd{
+  position: absolute;
+  top: -25%;
+  left: 5%;
+}
+
+.main-project-image{
+  object-fit: contain;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.project-info{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+
+.project-title{
+  color: white;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  font-size: 45px;
+  line-height: 0.9;
+  width: 100%;
+  text-align: center;
+}
+
+.project-description{
+  font-family: "Poppins";
+  font-weight: 200;
+  text-align: center;
+}
+
+.languages-list{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 75%;
+}
+
+.languages-list > li > i{
+  font-size: 30px;
+}
+
+.visit-site{
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: wavy;
+  color: #BB48B9;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }

@@ -14,7 +14,7 @@ export const About = () => {
               Trayectoria Laboral
             </span>
             <br />
-            Con tan solo 16 años empecé a trabajar en eventos de hoteles de lujo de Barcelona, aprendiendo a trabajar en equipo de manera coordinada y eficiente. <br className="paragraph-separation"/> <p className="second-paragraph">A dia de hoy dedico mi tiempo al completo como desarrolador freelance con varios proyectos a mis espaldas, ofreciendo atractivas soluciones web para empresas e individuos. <br /> <a href="http://localhost:5173/"><p className="link-to"><i>Ver Proyectos →</i></p></a> <br className="paragraph-separation last-separator"/></p>
+            Con tan solo 16 años empecé a trabajar en eventos de hoteles de lujo de Barcelona, aprendiendo a trabajar en equipo de manera coordinada y eficiente. <br className="paragraph-separation"/> <span className="second-paragraph">A dia de hoy dedico mi tiempo al completo como desarrolador freelance con varios proyectos a mis espaldas, ofreciendo atractivas soluciones web para empresas e individuos. <br /> <a href="http://localhost:5173/"><span className="link-to"><i>Ver Proyectos →</i></span></a> <br className="paragraph-separation last-separator"/></span>
           </p>
           <ul id="grid-4">
             <li><img className="icons trilingue aboutlist"src="https://res.cloudinary.com/dx2arqne6/image/upload/v1704910715/language_d9ynxy.png" alt="trilingue" /><i> Trlingue</i></li>
