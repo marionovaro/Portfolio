@@ -1,4 +1,4 @@
-.project-card{
+.project-card-mobile{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,35 +7,65 @@
   width: 80vw;
 }
 
-.image-container-project-card{
+.image-container-project-card-mobile{
   width: 100%;
   position: relative;
 }
 
 .number-list{
-  height: 12vw;
+  height: 15vw
+}
+
+.project-title-mobile-right, .project-title-mobile-left {
+  position: absolute;
+  font-family: "Staatliches";
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+  font-size: 16vw;
+  line-height: 0.9;
+  text-align: center;
+  background: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1.5px transparent;
+  color: #151515;
+  z-index: 100;
+  opacity: 0.6;
+  text-shadow: 0 0 5px #ffff;
+}
+
+.project-title-mobile-right{
+  top: -7%;
+  left: -7%;
+}
+
+.project-title-mobile-left{
+  top: -7%;
+  right: -7%;
 }
 
 .even{
   position: absolute;
-  top: -25%;
-  right: 5%;
+  top: -7%;
+  right: -7%;
 }
 
 .odd{
   position: absolute;
-  top: -25%;
-  left: 5%;
+  top: -7%;
+  left: -7%;
 }
 
-.main-project-image{
+.main-project-image-mobile{
   object-fit: contain;
   width: 100%;
   border-radius: 15px;
+  z-index: 200;
+  position: relative;
 }
 
-.project-info{
-  width: 30%;
+.project-info-mobile{
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,23 +74,14 @@
   color: white;
 }
 
-.project-title{
-  color: white;
-  font-family: "Poppins";
-  text-transform: capitalize;
-  font-size: 45px;
-  line-height: 0.9;
-  width: 100%;
-  text-align: center;
-}
-
-.project-description{
+.project-description-mobile{
   font-family: "Poppins";
   font-weight: 200;
   text-align: center;
+  width: 100%;
 }
 
-.languages-list{
+.languages-list-mobile{
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -68,11 +89,11 @@
   width: 75%;
 }
 
-.languages-list > li > i{
+.languages-list-mobile > li > i{
   font-size: 30px;
 }
 
-.visit-site{
+.visit-site-mobile{
   font-family: "Poppins";
   font-size: 15px;
   font-weight: 400;
