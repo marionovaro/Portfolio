@@ -4,37 +4,37 @@ export const Tech = () => {
   return (
     <>
       <nav id="tech-nav">
-        <div class="language">
-          <i class="devicon-javascript-plain colored"></i>
-          <span class="name">JavaScript</span>
+        <div className="language">
+          <i className="devicon-javascript-plain colored"></i>
+          <span className="name">JavaScript</span>
         </div>
-        <div class="language">
-          <i class="devicon-html5-plain colored"></i>
-          <span class="name">HTML</span>
+        <div className="language">
+          <i className="devicon-html5-plain colored"></i>
+          <span className="name">HTML</span>
         </div>
-        <div class="language">
-          <i class="devicon-css3-plain colored"></i>
-          <span class="name">CSS</span>
+        <div className="language">
+          <i className="devicon-css3-plain colored"></i>
+          <span className="name">CSS</span>
         </div>
-        <div class="language">
-          <i class="devicon-react-original colored"></i>
-          <span class="name">React</span>
+        <div className="language">
+          <i className="devicon-react-original colored"></i>
+          <span className="name">React</span>
         </div>
-        <div class="language">
-          <i class="devicon-nodejs-plain colored"></i>
-          <span class="name">NodeJS</span>
+        <div className="language">
+          <i className="devicon-nodejs-plain colored"></i>
+          <span className="name">NodeJS</span>
         </div>
-        <div class="language">
-          <i class="devicon-mongodb-plain-wordmark colored"></i>
-          <span class="name">MongoDB</span>
+        <div className="language">
+          <i className="devicon-mongodb-plain-wordmark colored"></i>
+          <span className="name">MongoDB</span>
         </div>
-        <div class="language">
-          <i class="devicon-typescript-plain colored"></i>
-          <span class="name">TypeScript</span>
+        <div className="language">
+          <i className="devicon-typescript-plain colored"></i>
+          <span className="name">TypeScript</span>
         </div>
-        <div class="language">
-          <i class="devicon-angularjs-plain colored"></i>
-          <span class="name">Angular</span>
+        <div className="language">
+          <i className="devicon-angularjs-plain colored"></i>
+          <span className="name">Angular</span>
         </div>
       </nav>   
     </>
