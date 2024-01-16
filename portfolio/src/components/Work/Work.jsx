@@ -8,7 +8,6 @@ export const Work = () => {
   return (
     <>
       <div id="projects-section">
-        {/* <h1 id="projects-section-title">Projects</h1> */}
         <div id="projects-list">
           {projects.map((project) => {
             acc++

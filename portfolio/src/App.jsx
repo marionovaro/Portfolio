@@ -4,8 +4,7 @@ import { Title, SubTitle, Description, RRSS, Tech, Work, About, TogglePage } fro
 
 const App = () => {
   const [toggle, setToggle] = useState("work")
-
-  console.log(window.VisualViewport.scale)
+  let mobile = window.innerWidth < 650 ? true : false
 
   return (
     <>
@@ -16,9 +15,9 @@ const App = () => {
           <Description/>
           <RRSS/>
         </div>
-        <div id="visuals-side">
+        {!mobile && <div id="visuals-side">
           <img src="https://alfin.dev/images/illustrations/developer-illustration.png" alt="mario coding" />
-        </div>
+        </div>}
       </section>
       <section id="main-nav">
         <h3 id="listo">¿Listo para dar vida a tu visión?</h3>

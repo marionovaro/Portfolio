@@ -8,9 +8,15 @@
   padding: 0 1vw;
 
   #nombretexto{
-      /* color: red; */
       font-family: "Oooh Baby", cursive;
       font-size: 1.75vw;
+
+      @media screen and (max-width: 650px) {
+        font-size: 2.3vw;
+      }
+      @media screen and (max-width: 500px){
+        font-size: 2.8vw;
+      }
   }
   .sorprendentes{
       color: hsla(302, 47%, 55%, 1);
@@ -18,5 +24,20 @@
       font-weight: 1000;
       font-size: 1.6vw;
       letter-spacing: 0.5px;
+
+      @media screen and (max-width: 650px) {
+        font-size: 2.1vw;
+      }
+      @media screen and (max-width: 500px){
+        font-size: 2.4vw;
+      }
+  }
+
+  @media screen and (max-width: 650px) {
+    font-size: 1.7vw;
+    padding: 0 2vw;
+  }
+  @media screen and (max-width: 500px){
+    font-size: 2vw;
   }
 }

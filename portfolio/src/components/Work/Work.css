@@ -6,6 +6,13 @@
   align-items: center;
   gap: 2rem;
 
+  @media screen and (max-width: 1000px) {
+    margin: 15vw 0;
+  }
+
+  @media screen and (max-width: 650px) {
+    margin: 25vw 0;
+  }
 }
 
 #projects-section-title{
