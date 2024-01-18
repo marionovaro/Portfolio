@@ -16,9 +16,31 @@
   "uno cuatro tres"
   "siete cuatro tres"
   "cinco seis tres";
-/* 
-  @media screen and (max-width: 1000px) {
+
+  @media screen and (max-width: 625px) {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10vh 15vh 18vh 15vh 15vh 18vh 15vh;
+    grid-template-areas: 
+    "uno ocho"
+    "uno dos"
+    "uno diez"
+    "cuatro nueve"
+    "cuatro tres"
+    "seis tres"
+    "cinco cinco";
+  }
+
+  /* @media screen and (max-width: 450px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 20vh 15vh 15vh 15vh 18vh 15vh;
+    grid-template-areas: 
+    "uno ocho"
+    "uno dos"
+    "uno diez"
+    "cuatro nueve"
+    "cuatro tres"
+    "seis tres"
+    "cinco cinco";
   } */
 }
 
@@ -275,4 +297,26 @@
   }
 }
 
-/* a partir de 600px ya debe cambiar la disposicion de las casillas*/
+@media screen and (max-width: 625px) {
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-7, #grid-8, #grid-9, #grid-10, #grid-11{
+    font-size: 1.9vw;
+  }
+  #grid-8 > h3{
+    font-size: 3.2vw;
+  }
+  #grid-2 > .span-about {
+    font-size: 2.1vw;
+  }
+  #grid-4{
+    gap: 1.5rem;
+    li > i{
+      font-size: 2.6vw;
+    }
+    .aboutlist{
+      width: 10%;
+    }
+  }
+  #grid-5{
+    margin: 0;
+  }
+}

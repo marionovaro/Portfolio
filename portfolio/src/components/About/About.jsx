@@ -34,7 +34,7 @@ export const About = () => {
           <div id="grid-6">
             <img src="https://res.cloudinary.com/dx2arqne6/image/upload/v1704904909/IMG-20221215-WA0010_zne4j1_6c1b21.jpg" alt="indonesia beach picture" />
           </div>
-          <h6 id="grid-7">Recuerdos de mi viaje recorriendo la increíble <span id="indonesia">Indonesia</span></h6>
+          {/* <h6 id="grid-7">Recuerdos de mi viaje recorriendo la increíble <span id="indonesia">Indonesia</span></h6> */}
           <div id="grid-8">
             <h3>Well...<br/> <span>this is me!</span></h3>
             <img src="https://res.cloudinary.com/dx2arqne6/image/upload/v1704906139/Arrow_ayx1y7.png" alt="arrow" />
