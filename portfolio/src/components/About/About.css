@@ -16,6 +16,10 @@
   "uno cuatro tres"
   "siete cuatro tres"
   "cinco seis tres";
+/* 
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
+  } */
 }
 
 #grid-1{
@@ -33,7 +37,7 @@
 #grid-2{
   grid-area: dos;
   font-family: "Poppins";
-  font-size: 20px;
+  font-size: 1.6vw;
   font-weight: 300;
   place-self: center;
   text-align: left;
@@ -59,7 +63,7 @@
 }
 #grid-3{
   font-family: "Poppins";
-  font-size: 20px;
+  font-size: 1.6vw;
   font-weight: 300;
   place-self: center;
   text-align: left;
@@ -88,7 +92,7 @@
 
   .second-paragraph{
     text-align: right;
-    font-size: 22px;
+    font-size: 1.8vw;
     font-weight: 400;
   }
 
@@ -139,7 +143,7 @@
 #grid-5{
   grid-area: cinco;
   font-family: "Poppins";
-  font-size: 20px;
+  font-size: 1.6vw;
   font-weight: 300;
   place-self: center;
   text-align: left;
@@ -182,6 +186,7 @@
   justify-self: center;
   align-self: first baseline;
   text-align: center;
+  font-size: 1.4vw;
   font-family: "Poppins";
   font-weight: 200;
 
@@ -230,7 +235,7 @@
 #grid-10{
   grid-area: diez;
   font-family: "Poppins";
-  font-size: 20px;
+  font-size: 1.6vw;
   font-weight: 300;
   place-self: center;
   text-align: right;
@@ -257,3 +262,17 @@
 #grid-11{
   grid-area: once;
 }
+
+@media screen and (max-width: 1000px) {
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-7, #grid-8, #grid-9, #grid-10, #grid-11{
+    font-size: 1.7vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-7, #grid-8, #grid-9, #grid-10, #grid-11{
+    font-size: 1.8vw;
+  }
+}
+
+/* a partir de 600px ya debe cambiar la disposicion de las casillas*/

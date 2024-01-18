@@ -5,6 +5,7 @@ import "./Work.css"
 export const Work = () => {
   let mobile = window.innerWidth < 650 ? true : false
   let acc = 0;
+
   return (
     <>
       <div id="projects-section">

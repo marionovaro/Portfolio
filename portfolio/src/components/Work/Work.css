@@ -31,6 +31,9 @@
 #projects-list{
   display: flex;
   flex-direction: column;
-  /* gap: 6.5rem; */
   gap: 11rem;
+
+  @media screen and (max-height: 600px) {
+    gap: 6.5rem;
+  }
 }
