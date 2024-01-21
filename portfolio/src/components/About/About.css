@@ -32,7 +32,7 @@
 
   @media screen and (max-width: 450px) {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 12vh 30vh 55vh 40vh 25vh 30vh 25vh 20vh;
+    grid-template-rows: 12vh 30vh 55vh 40vh 25vh 35vh 25vh 20vh;
     grid-template-areas: 
     "ocho ocho"
     "dos diez"
@@ -360,12 +360,21 @@
   #grid-1{
     width: 60%;
     justify-self: center;
+    object-position: 50% 0%;
   }
   #grid-3{
     #trayectoria-laboral-texto{
       display: flex;
       flex-direction: row;
     }
-    
+    .link-to{
+      font-size: 15px;
+    }
+    .link-to:hover{
+      font-size: 17px;
+    }
+    .second-paragraph{
+      font-size: 2.3vw;
+    }
   }
 }

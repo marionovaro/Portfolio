@@ -20,7 +20,8 @@ export const About = () => {
             <div id="trayectoria-laboral-texto">
               <p>Con tan solo 16 años empecé a trabajar en eventos de hoteles de lujo de Barcelona, aprendiendo a trabajar en equipo de manera coordinada y eficiente.</p> 
               {!mobile && <br className="paragraph-separation"/> }
-              <p className="second-paragraph">A dia de hoy dedico mi tiempo al completo como desarrolador freelance con varios proyectos a mis espaldas, ofreciendo atractivas soluciones web para empresas e individuos. <br /> <a href="http://localhost:5173/"><span className="link-to"><i>Ver Proyectos →</i></span></a> <br className="paragraph-separation last-separator"/></p>
+              <p className="second-paragraph">A dia de hoy dedico mi tiempo al completo como desarrolador freelance con varios proyectos a mis espaldas, ofreciendo atractivas soluciones web para empresas e individuos. <br /> 
+              <a href="http://localhost:5173/"><span className="link-to"><i>Ver Proyectos →</i></span></a> {!mobile && <br className="paragraph-separation last-separator"/>}</p>
             </div>
           </div>
           <ul id="grid-4">
