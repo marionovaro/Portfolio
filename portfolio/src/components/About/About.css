@@ -32,7 +32,7 @@
 
   @media screen and (max-width: 450px) {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 12vh 30vh 55vh 40vh 25vh 35vh 25vh 20vh;
+    grid-template-rows: 12vh 30vh 50vh 32vh 15vh 32vh 15vh 15vh;
     grid-template-areas: 
     "ocho ocho"
     "dos diez"
@@ -338,7 +338,7 @@
 
 @media screen and (max-width: 450px) {
   #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-7, #grid-8, #grid-9, #grid-10, #grid-11{
-    font-size: 2.2vw;
+    font-size: 3vw;
   }
   #grid-8 > h3{
     font-size: 3.5vw;
@@ -349,7 +349,7 @@
   #grid-4{
     gap: 1.2rem;
     li > i{
-      font-size: 2.6vw;
+      font-size: 3.4vw;
       right: 30%;
     }
     .aboutlist{
@@ -360,7 +360,10 @@
   #grid-1{
     width: 60%;
     justify-self: center;
-    object-position: 50% 0%;
+
+    img{
+    object-position: center 70%
+    }
   }
   #grid-3{
     #trayectoria-laboral-texto{
@@ -368,13 +371,19 @@
       flex-direction: row;
     }
     .link-to{
-      font-size: 15px;
+      font-size: 18px;
     }
     .link-to:hover{
-      font-size: 17px;
+      font-size: 20px;
     }
     .second-paragraph{
-      font-size: 2.3vw;
+      font-size: 3.1vw;
+    }
+  }
+  #grid-10{
+    .paragraph-title{
+      width: 120%;
+      display: flex;
     }
   }
 }
