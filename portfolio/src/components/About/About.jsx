@@ -1,5 +1,8 @@
 import "./About.css"
 export const About = () => {
+  let tablet = window.innerWidth < 625 ? true : false
+  let mobile = window.innerWidth < 450 ? true : false
+
   return (
     <>
       <div id="projects-section">
@@ -8,14 +11,18 @@ export const About = () => {
             <img src="https://res.cloudinary.com/dx2arqne6/image/upload/v1704814279/20221206_124139_d0jvkn.jpg" alt="indonesia beach picture" />
           </div>
           <p id="grid-2">Una persona enamorada de la vida y de la programación. A punto de cumplir los 20 años, sigo desarrollando mi habilidad para convertir ideas en <span className="span-about">realidades digitales</span></p>
-          <p id="grid-3">
+          <div id="grid-3">
             <span className="paragraph-title">
               <img src="https://res.cloudinary.com/dx2arqne6/image/upload/v1705074719/underline_5.1_slseo7.png" alt="underline" />
               Trayectoria Laboral
             </span>
             <br />
-            Con tan solo 16 años empecé a trabajar en eventos de hoteles de lujo de Barcelona, aprendiendo a trabajar en equipo de manera coordinada y eficiente. <br className="paragraph-separation"/> <span className="second-paragraph">A dia de hoy dedico mi tiempo al completo como desarrolador freelance con varios proyectos a mis espaldas, ofreciendo atractivas soluciones web para empresas e individuos. <br /> <a href="http://localhost:5173/"><span className="link-to"><i>Ver Proyectos →</i></span></a> <br className="paragraph-separation last-separator"/></span>
-          </p>
+            <div id="trayectoria-laboral-texto">
+              <p>Con tan solo 16 años empecé a trabajar en eventos de hoteles de lujo de Barcelona, aprendiendo a trabajar en equipo de manera coordinada y eficiente.</p> 
+              {!mobile && <br className="paragraph-separation"/> }
+              <p className="second-paragraph">A dia de hoy dedico mi tiempo al completo como desarrolador freelance con varios proyectos a mis espaldas, ofreciendo atractivas soluciones web para empresas e individuos. <br /> <a href="http://localhost:5173/"><span className="link-to"><i>Ver Proyectos →</i></span></a> <br className="paragraph-separation last-separator"/></p>
+            </div>
+          </div>
           <ul id="grid-4">
             <li><img className="icons trilingue aboutlist"src="https://res.cloudinary.com/dx2arqne6/image/upload/v1704910715/language_d9ynxy.png" alt="trilingue" /><i> Trlingue</i></li>
             <li><img className="icons proactivo aboutlist"src="https://res.cloudinary.com/dx2arqne6/image/upload/v1704910715/proactivo_xa6xpz.png" alt="proactivo" /><i> Proactivo</i></li>
@@ -34,7 +41,7 @@ export const About = () => {
           <div id="grid-6">
             <img src="https://res.cloudinary.com/dx2arqne6/image/upload/v1704904909/IMG-20221215-WA0010_zne4j1_6c1b21.jpg" alt="indonesia beach picture" />
           </div>
-          {/* <h6 id="grid-7">Recuerdos de mi viaje recorriendo la increíble <span id="indonesia">Indonesia</span></h6> */}
+          {!mobile && !tablet && <h6 id="grid-7">Recuerdos de mi viaje recorriendo la increíble <span id="indonesia">Indonesia</span></h6>}
           <div id="grid-8">
             <h3>Well...<br/> <span>this is me!</span></h3>
             <img src="https://res.cloudinary.com/dx2arqne6/image/upload/v1704906139/Arrow_ayx1y7.png" alt="arrow" />
@@ -50,7 +57,6 @@ export const About = () => {
             <br />
             A través de mis experiencias, descubrí la emoción de resolver problemas a través de líneas de código. Disfruto del desafío constante que supone crear experiencias web que dejen un impacto duradero.  
           </p>
-          {/* <p id="grid-11">Grid 11</p> */}
         </section>
       </div>
     </>
