@@ -61,7 +61,7 @@
 #grid-1{
   grid-area: uno;
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
 
   img{
     height: 100%;
