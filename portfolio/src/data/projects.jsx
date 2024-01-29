@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "HousePals",
-    description: "Platafroma que conecta personas para compartir piso y encontrar nuevos inquilinos con intereses afines",
+    description: "Plataforma que conecta personas para compartir piso y encontrar nuevos inquilinos con intereses afines",
     languages: ["js", "html", "css", "react", "node"],
     image: "https://res.cloudinary.com/dx2arqne6/image/upload/v1704653696/Portada_HousePals_rcqmkn.png",
     phoneImage: "https://res.cloudinary.com/dx2arqne6/image/upload/v1705329622/mobile_sg9utf.png",
@@ -27,6 +27,6 @@ export const projects = [
     phoneImage: "",
     isPublished: true,
     show: false,
-    // link: "https://fifa-sports.vercel.app/"
+    link: "https://fifa-sports.vercel.app/"
   }
 ]
