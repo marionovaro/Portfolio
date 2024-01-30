@@ -27,6 +27,6 @@ export const projects = [
     phoneImage: "",
     isPublished: true,
     show: false,
-    link: "https://fifa-sports.vercel.app/"
+    // link: "https://fifa-sports.vercel.app/"
   }
 ]
