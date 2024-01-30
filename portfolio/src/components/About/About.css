@@ -22,7 +22,7 @@
 #about-section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 17vh 15vh 15vh 25vh 10vh 20vh;
+  grid-template-rows: 103px 91px 91px 152px 61px 122px;
   gap: 1rem;
   justify-content: center;
   align-items: center;
@@ -38,9 +38,13 @@
   "siete cuatro tres"
   "cinco seis tres";
 
+  @media screen and (max-height: 400px) {
+    row-gap: 3rem
+   }
+
   @media screen and (max-width: 625px) {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 10vh 15vh 18vh 15vh 15vh 18vh 15vh;
+    grid-template-rows: 61px 91px 109px 91px 91px 109px 91px;
     grid-template-areas: 
     "uno ocho"
     "uno dos"
@@ -53,7 +57,7 @@
 
   @media screen and (max-width: 450px) {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 9vh 30vh 50vh 32vh 15vh 32vh 15vh 15vh;
+    grid-template-rows: 55px 182px 304px 194px 91px 194px 91px 91px;
     grid-template-areas: 
     "ocho ocho"
     "dos diez"
@@ -241,10 +245,10 @@
   grid-area: siete;
   width: 75%;
   height: fit-content;
-  justify-self: center;
+  justify-self: right;
   align-self: first baseline;
-  text-align: center;
-  font-size: 1.4vw;
+  text-align: right;
+  font-size: 1.1vw;
   font-family: "Poppins";
   font-weight: 200;
 
@@ -321,20 +325,68 @@
   grid-area: once;
 }
 
+@media screen and (min-width: 1800px) {
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-8, #grid-9, #grid-10, #grid-11{
+    font-size: 1vw;
+  }
+  #grid-3 > #trayectoria-laboral-texto > .second-paragraph{
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-8, #grid-9, #grid-10, #grid-11{
+    font-size: 1.2vw;
+  }
+  #grid-3 > #trayectoria-laboral-texto > .second-paragraph{
+    font-size: 1.4vw;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-8, #grid-9, #grid-10, #grid-11{
+    font-size: 1.4vw;
+  }
+  #grid-3 > #trayectoria-laboral-texto > .second-paragraph{
+    font-size: 1.6vw;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-8, #grid-9, #grid-10, #grid-11{
+    font-size: 1.2vw;
+  }
+  #grid-3 > #trayectoria-laboral-texto > .second-paragraph{
+    font-size: 1.4vw;
+  }
+}
+
 @media screen and (max-width: 1000px) {
-  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-7, #grid-8, #grid-9, #grid-10, #grid-11{
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-8, #grid-9, #grid-10, #grid-11{
     font-size: 1.7vw;
+  }
+  #grid-3 > #trayectoria-laboral-texto > .second-paragraph{
+    font-size: 1.9vw;
   }
 }
 
 @media screen and (max-width: 750px) {
-  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-7, #grid-8, #grid-9, #grid-10, #grid-11{
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-8, #grid-9, #grid-10, #grid-11{
     font-size: 1.8vw;
+  }
+  #grid-3 > #trayectoria-laboral-texto > .second-paragraph{
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  #grid-8 > img{
+    width: 4vw
   }
 }
 
 @media screen and (max-width: 625px) {
-  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-7, #grid-8, #grid-9, #grid-10, #grid-11{
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-8, #grid-9, #grid-10, #grid-11{
     font-size: 1.9vw;
   }
   #grid-8 > h3{

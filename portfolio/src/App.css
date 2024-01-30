@@ -41,6 +41,10 @@
   align-items: center;
   gap: 2rem;
 
+  @media screen and (min-width: 1250px) {
+    gap: 4vw;
+  }
+
   @media screen and (max-width: 550px) {
     gap: 1.5rem;
   }
@@ -53,6 +57,10 @@
   font-weight: 50;
   color: white;
   text-align: center;
+
+  @media screen and (min-width: 1400px) {
+    margin: 3vw 0 0 0;
+  }
 
   @media screen and (max-width: 650px) {
     margin: 5vw 0 0 0;

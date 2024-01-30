@@ -7,6 +7,10 @@
   width: 100%;
   padding: 0 3vw;
 
+  @media screen and (min-width: 1250px) {
+    gap: 4rem;
+  }
+
   @media screen and (max-width: 800px) {
     gap: 1.3rem;
   }
