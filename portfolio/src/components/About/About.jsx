@@ -5,7 +5,7 @@ export const About = () => {
 
   return (
     <>
-      <div id="projects-section">
+      <div id="about-container">
         <section id="about-section">
           <div id="grid-1">
             <img src="https://res.cloudinary.com/dx2arqne6/image/upload/v1704814279/20221206_124139_d0jvkn.jpg" alt="indonesia beach picture" />
