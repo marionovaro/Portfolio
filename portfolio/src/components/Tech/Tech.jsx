@@ -17,25 +17,25 @@ export const Tech = () => {
           <span className="name">CSS</span>
         </div>
         <div className="language">
-          <i className="devicon-react-original colored"></i>
-          <span className="name">React</span>
-        </div>
-        <div className="language">
           <i className="devicon-nodejs-plain colored"></i>
           <span className="name">NodeJS</span>
+        </div>
+        <div className="language">
+          <i className="devicon-react-original colored"></i>
+          <span className="name">React</span>
         </div>
         <div className="language">
           <i className="devicon-mongodb-plain-wordmark colored"></i>
           <span className="name">MongoDB</span>
         </div>
-        <div className="language">
+        {/* <div className="language">
           <i className="devicon-typescript-plain colored"></i>
           <span className="name">TypeScript</span>
-        </div>
-        <div className="language">
+        </div> */}
+        {/* <div className="language">
           <i className="devicon-angularjs-plain colored"></i>
           <span className="name">Angular</span>
-        </div>
+        </div> */}
       </nav>   
     </>
   )

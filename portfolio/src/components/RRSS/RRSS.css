@@ -5,7 +5,7 @@
   margin: 0;
 
   @media screen and (max-width: 800px) {
-    gap: 1rem;
+    gap: 1.5rem;
   }
 }
 
@@ -17,7 +17,7 @@
     width: 3vw;
   }
   @media screen and (max-width: 500px){
-    width: 3.5vw;
+    width: 4.5vw;
   }
 
 }
