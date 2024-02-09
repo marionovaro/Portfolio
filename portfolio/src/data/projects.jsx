@@ -4,10 +4,10 @@ export const projects = [
     description: "Plataforma que conecta personas para compartir piso y encontrar nuevos inquilinos con intereses afines",
     languages: ["js", "html", "css", "react", "node"],
     image: "https://res.cloudinary.com/dx2arqne6/image/upload/v1704653696/Portada_HousePals_rcqmkn.png",
-    phoneImage: "https://res.cloudinary.com/dx2arqne6/image/upload/v1705329622/mobile_sg9utf.png",
-    isPublished: false,
+    phoneImage: "https://res.cloudinary.com/dx2arqne6/image/upload/v1707511995/Portada_HousePals_Mobile_Dark_2_vj2j71.png",
+    isPublished: true,
     show: true,
-    // link: "https://fifa-sports.vercel.app/"
+    link: "https://connect-a-mate.vercel.app/"
   },
   {
     title: "Sports DB",
