@@ -4,21 +4,22 @@
   align-items: center;
   gap: 0.5rem;
   border: rgb(242, 242, 242, 0.1);
-  border-radius: 25px;
-  padding: 5px 5px;
+  border-radius: 25vw;
+  padding: 0.5vw;
   background-color: #2D2D2D;
   height: 4vw;
   /* max-height: 5.3vh; */
 
   @media screen and (max-width: 650px) {
     min-height: calc(20px + 1.4vw);
+    padding: 1vw;
   }
 }
 
 #work-side-toggle, #about-side-toggle{
   height: 100%;
   border: none;
-  border-radius: 25px;
+  border-radius: 25vw;
   padding: 10px 20px;
   background-color: transparent;
   color: white;
