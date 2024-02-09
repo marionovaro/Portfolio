@@ -23,7 +23,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 103px 91px 91px 152px 61px 122px;
-  gap: 1rem;
+  gap: 1.25rem;
   justify-content: center;
   align-items: center;
   min-width: 100%;
@@ -41,6 +41,11 @@
   @media screen and (max-height: 400px) {
     row-gap: 3rem
    }
+  
+  @media screen and (min-width: 1300px) {
+    grid-template-rows: 155px 136px 136px 228px 91px 183px;
+    row-gap: 1.5rem;
+  }
 
   @media screen and (max-width: 625px) {
     grid-template-columns: repeat(2, 1fr);
@@ -313,11 +318,14 @@
 }
 
 @media screen and (min-width: 1800px) {
-  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-8, #grid-9, #grid-10, #grid-11{
-    font-size: 1vw;
+  #grid-1, #grid-2, #grid-3, #grid-5, #grid-6, #grid-8, #grid-9, #grid-10, #grid-11{
+    font-size: 1.15vw;
   }
-  #grid-3 > #trayectoria-laboral-texto > .second-paragraph{
+  #grid-3 > #trayectoria-laboral-texto > .second-paragraph, #grid-4{
     font-size: 1.2vw;
+  }
+  #grid-4{
+    gap: 1.3rem;
   }
 }
 
@@ -339,7 +347,7 @@
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1300px) {
   #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-8, #grid-9, #grid-10, #grid-11{
     font-size: 1.2vw;
   }
